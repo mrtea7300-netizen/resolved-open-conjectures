@@ -2,7 +2,7 @@
 
 **Contributors:** [@yotam1001](https://github.com/yotam1001), [@BoazCohenJ](https://github.com/BoazCohenJ), [@idangnlv](https://github.com/idangnlv), [@ohaventura](https://github.com/ohaventura), [@mrtea7300-netizen](https://github.com/mrtea7300-netizen)
 
-A clean, self-contained archive of **39 resolved open problems** from the literature and the OEIS — each backed by a complete proof, a formal Lean 4 verification, or an independently verified counterexample and certificate.
+A clean, self-contained archive of **40 resolved open problems** from the literature and the OEIS — each backed by a complete proof, a formal Lean 4 verification, or an independently verified counterexample and certificate.
 
 Every folder contains the verbatim problem statement with primary source citation, the proof or counterexample, and standalone code/certificates to reproduce the verification from scratch.
 
@@ -70,13 +70,14 @@ Every folder contains the verbatim problem statement with primary source citatio
 
 ---
 
-## 3. Complete Classifications Conditional on RH / Dirichlet GRH (4)
+## 3. Complete Classifications Conditional on RH / Dirichlet GRH (5)
 
 Each result below relies only on the Riemann Hypothesis for $\zeta(s)$ or GRH for Dirichlet $L$-functions, paired with an unconditional finite computation.
 
 | Problem | Result (Conditional on RH / Dirichlet GRH) | Verification | Credit | Folder |
 |---|---|---|---|---|
 | **Class Group Exponent 3** | Complete list of the 17 imaginary quadratic fundamental discriminants with class group of exponent 3 (given Dirichlet GRH) | Proof + PARI/GP + C sieve | [@yotam1001](https://github.com/yotam1001) | [`rh-conditional/class-group-exponent-3/`](rh-conditional/class-group-exponent-3/) |
+| **A093669, A093670 & A025052** | Complete classification of $N = ab + bc + ca$: **23** unique strict reps (A093669, max $193$; also unconditional via Watkins 2004), **16** unique non-strict reps (A093670, max $142$), **18** non-representable (A025052, max $462$, Borwein–Choi 2000) | **Lean 4** (zero-dep) + proof + Python | [@mrtea7300-netizen](https://github.com/mrtea7300-netizen) | [`rh-conditional/A093669/`](rh-conditional/A093669/) |
 | **A353076** | Complete list of all **884** odd integers with $\sigma(k) > (e^\gamma/2)k\log\log k$, largest $c_0/67$ (given RH) | Dual C enumerators + 60-digit verifier | [@idangnlv](https://github.com/idangnlv) | [`rh-conditional/A353076/`](rh-conditional/A353076/) |
 | **A350299** | Complete list of all **11** terms (last term $5040$, given RH) | 40-digit Decimal verifier | [@idangnlv](https://github.com/idangnlv) | [`rh-conditional/A350299/`](rh-conditional/A350299/) |
 | **Ramanujan's Inequality** | Complete enumeration of all **564,384,969** integer counterexamples (107,146 runs, largest $38{,}358{,}837{,}682$, given RH) | Dual C sieves + Lucy boundary check | [@idangnlv](https://github.com/idangnlv) | [`rh-conditional/ramanujan-inequality/`](rh-conditional/ramanujan-inequality/) |
