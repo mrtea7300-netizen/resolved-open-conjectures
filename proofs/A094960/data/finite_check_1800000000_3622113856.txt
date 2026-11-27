@@ -1,0 +1,44 @@
+record j=0 n=1800000000 F=42426 p=42433 offset=7 witness_index=1
+record j=1 n=1800000000 F=42426 p=42433 offset=7 witness_index=1
+record j=2 n=1800000000 F=42426 p=42433 offset=7 witness_index=1
+record j=3 n=1800000000 F=42426 p=42433 offset=7 witness_index=1
+record j=2 n=1800007858 F=42426 p=42437 offset=11 witness_index=2
+record j=1 n=1800007859 F=42426 p=42437 offset=11 witness_index=2
+record j=0 n=1800007860 F=42426 p=42437 offset=11 witness_index=2
+record j=3 n=1800007860 F=42426 p=42437 offset=11 witness_index=2
+record j=2 n=1800941374 F=42437 p=42451 offset=14 witness_index=2
+record j=1 n=1800941375 F=42437 p=42451 offset=14 witness_index=2
+record j=0 n=1800941376 F=42437 p=42451 offset=14 witness_index=2
+record j=3 n=1800941376 F=42437 p=42451 offset=14 witness_index=2
+record j=2 n=1803488524 F=42467 p=42487 offset=20 witness_index=2
+record j=1 n=1803488525 F=42467 p=42487 offset=20 witness_index=2
+record j=0 n=1803488526 F=42467 p=42487 offset=20 witness_index=2
+record j=3 n=1803488526 F=42467 p=42487 offset=20 witness_index=2
+record j=2 n=1806207408 F=42499 p=42533 offset=34 witness_index=2
+record j=1 n=1806207409 F=42499 p=42533 offset=34 witness_index=2
+record j=0 n=1806207410 F=42499 p=42533 offset=34 witness_index=2
+record j=3 n=1806207410 F=42499 p=42533 offset=34 witness_index=2
+record j=2 n=1807057036 F=42509 p=42557 offset=48 witness_index=2
+record j=1 n=1807057037 F=42509 p=42557 offset=48 witness_index=2
+record j=0 n=1807057038 F=42509 p=42557 offset=48 witness_index=2
+record j=3 n=1807057038 F=42509 p=42557 offset=48 witness_index=2
+record j=2 n=1813865046 F=42589 p=42641 offset=52 witness_index=2
+record j=1 n=1813865047 F=42589 p=42641 offset=52 witness_index=2
+record j=0 n=1813865048 F=42589 p=42641 offset=52 witness_index=2
+record j=3 n=1813865048 F=42589 p=42641 offset=52 witness_index=2
+record j=2 n=1876752270 F=43321 p=43391 offset=70 witness_index=2
+record j=1 n=1876752271 F=43321 p=43391 offset=70 witness_index=2
+record j=0 n=1876752272 F=43321 p=43391 offset=70 witness_index=2
+record j=3 n=1876752272 F=43321 p=43391 offset=70 witness_index=2
+record j=2 n=3456203586 F=58789 p=58889 offset=100 witness_index=2
+record j=1 n=3456203587 F=58789 p=58889 offset=100 witness_index=2
+record j=0 n=3456203588 F=58789 p=58889 offset=100 witness_index=2
+record j=3 n=3456203588 F=58789 p=58889 offset=100 witness_index=2
+summary j=0 range=[1800000000,3622113856) exceptions=0 largest_exception=0 unresolved=0 max_offset=100 checksum=94432704322324
+hist j=0 1:1821525534 2:588322
+summary j=1 range=[1800000000,3622113856) exceptions=0 largest_exception=0 unresolved=0 max_offset=100 checksum=94432704688022
+hist j=1 1:1821490018 2:623641 3:197
+summary j=2 range=[1800000000,3622113856) exceptions=0 largest_exception=0 unresolved=0 max_offset=100 checksum=94432705056210
+hist j=2 1:1821454502 2:658763 3:591
+summary j=3 range=[1800000000,3622113856) exceptions=0 largest_exception=0 unresolved=0 max_offset=100 checksum=94432704362856
+hist j=3 1:1821522252 2:591210 3:394

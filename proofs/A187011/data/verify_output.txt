@@ -1,0 +1,12 @@
+[PASS] Proposition 1 verified symbolically for general x_1 <= ... <= x_n (n = 2..7).
+[PASS] All 23 published OEIS A187011 terms (n = 0..22) reproduced exactly.
+[PASS] Exact determinant matches Proposition 1 for primes n = 1..40.
+[PASS] Selberg sieve weights (lambda_1 = 1, |lambda_d| <= 1) and G(z) lower bound verified exactly for h=2,4,6, z=60.
+[PASS] p_n < 2*n*log(n) verified for all 3 <= n <= 78498 (p_n <= 10^6).
+Empirical profile of |a(n)|^(1/n):
+  n =     10 (p_n =      29): |a(n)|^(1/n) = 5.791692
+  n =    100 (p_n =     541): |a(n)|^(1/n) = 9.375109
+  n =   1000 (p_n =    7919): |a(n)|^(1/n) = 12.500018
+  n =  10000 (p_n =  104729): |a(n)|^(1/n) = 15.838564
+  n =  78498 (p_n =  999983): |a(n)|^(1/n) = 18.698473
+ALL CHECKS PASSED.

@@ -1,0 +1,11 @@
+row 25-100: L =    26.0216  F =       0.577495  monotone: True
+row 25-100: L =   100.0000  F =      66.997903  monotone: True
+row 100-1000: L =   100.0000  F =      68.475951  monotone: True
+row 100-1000: L =  1000.0000  F =     954.924318  monotone: True
+row 1000-10000: L =  1000.0000  F =     956.395970  monotone: True
+row 1000-10000: L = 10000.0000  F =    9942.638483  monotone: True
+row 10000-100000: L = 10000.0000  F =    9943.150428  monotone: True
+row 10000-100000: L = 100000.0000  F =   99929.345935  monotone: True
+row 100000-None: L = 100000.0000  F =   99929.485512  monotone: True
+F changes sign at L = 25.293052, |D| = 9.652345e+10
+ALL CHECKS PASS

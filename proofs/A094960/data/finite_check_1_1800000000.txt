@@ -1,0 +1,242 @@
+exception j=0 n=1
+exception j=1 n=1
+exception j=2 n=1
+exception j=3 n=1
+exception j=0 n=2
+exception j=1 n=2
+exception j=2 n=2
+exception j=3 n=2
+record j=0 n=3 F=1 p=2 offset=1 witness_index=1
+exception j=1 n=3
+exception j=2 n=3
+exception j=3 n=3
+exception j=0 n=4
+exception j=1 n=4
+exception j=2 n=4
+exception j=3 n=4
+record j=3 n=5 F=2 p=3 offset=1 witness_index=1
+exception j=1 n=5
+exception j=2 n=5
+exception j=0 n=6
+exception j=1 n=6
+exception j=2 n=6
+exception j=3 n=6
+record j=1 n=7 F=2 p=3 offset=1 witness_index=1
+exception j=2 n=7
+exception j=3 n=7
+exception j=1 n=8
+exception j=2 n=8
+exception j=3 n=8
+record j=0 n=9 F=3 p=5 offset=2 witness_index=1
+record j=3 n=9 F=3 p=5 offset=2 witness_index=1
+exception j=1 n=9
+exception j=2 n=9
+exception j=0 n=10
+exception j=1 n=10
+exception j=2 n=10
+exception j=3 n=10
+exception j=0 n=11
+exception j=1 n=11
+exception j=2 n=11
+exception j=3 n=11
+exception j=0 n=12
+exception j=1 n=12
+exception j=2 n=12
+exception j=3 n=12
+record j=1 n=13 F=3 p=5 offset=2 witness_index=1
+exception j=2 n=13
+exception j=1 n=14
+exception j=2 n=14
+exception j=0 n=15
+exception j=1 n=15
+exception j=2 n=15
+exception j=3 n=15
+exception j=0 n=16
+exception j=1 n=16
+exception j=2 n=16
+exception j=3 n=16
+record j=2 n=17 F=4 p=5 offset=1 witness_index=1
+exception j=2 n=18
+record j=1 n=19 F=4 p=7 offset=3 witness_index=2
+exception j=2 n=19
+record j=0 n=20 F=4 p=7 offset=3 witness_index=2
+record j=3 n=20 F=4 p=7 offset=3 witness_index=2
+exception j=1 n=20
+exception j=2 n=20
+exception j=2 n=23
+exception j=3 n=23
+exception j=1 n=24
+exception j=2 n=24
+exception j=3 n=24
+record j=2 n=25 F=5 p=7 offset=2 witness_index=1
+exception j=2 n=26
+exception j=1 n=27
+exception j=2 n=27
+exception j=0 n=28
+exception j=1 n=28
+exception j=2 n=28
+exception j=3 n=28
+exception j=0 n=29
+exception j=1 n=29
+exception j=2 n=29
+exception j=3 n=29
+exception j=0 n=30
+exception j=1 n=30
+exception j=2 n=30
+exception j=3 n=30
+exception j=2 n=33
+exception j=1 n=34
+exception j=2 n=34
+exception j=0 n=35
+exception j=1 n=35
+exception j=2 n=35
+exception j=3 n=35
+exception j=0 n=36
+exception j=1 n=36
+exception j=2 n=36
+exception j=3 n=36
+exception j=2 n=40
+record j=1 n=41 F=6 p=11 offset=5 witness_index=2
+record j=2 n=41 F=6 p=11 offset=5 witness_index=2
+record j=0 n=42 F=6 p=11 offset=5 witness_index=2
+record j=3 n=42 F=6 p=11 offset=5 witness_index=2
+exception j=2 n=42
+exception j=2 n=47
+exception j=3 n=47
+exception j=1 n=48
+exception j=2 n=48
+exception j=3 n=48
+record j=0 n=49 F=7 p=13 offset=6 witness_index=2
+record j=1 n=49 F=7 p=13 offset=6 witness_index=2
+record j=2 n=49 F=7 p=13 offset=6 witness_index=2
+record j=3 n=49 F=7 p=13 offset=6 witness_index=2
+exception j=2 n=50
+exception j=2 n=53
+exception j=1 n=54
+exception j=2 n=54
+record j=0 n=55 F=7 p=19 offset=12 witness_index=4
+record j=1 n=55 F=7 p=19 offset=12 witness_index=4
+record j=3 n=55 F=7 p=19 offset=12 witness_index=4
+exception j=2 n=55
+exception j=1 n=56
+exception j=2 n=56
+record j=0 n=57 F=7 p=29 offset=22 witness_index=6
+record j=3 n=57 F=7 p=29 offset=22 witness_index=6
+exception j=1 n=57
+exception j=2 n=57
+exception j=0 n=58
+exception j=1 n=58
+exception j=2 n=58
+exception j=3 n=58
+exception j=0 n=59
+exception j=1 n=59
+exception j=2 n=59
+exception j=3 n=59
+exception j=0 n=60
+exception j=1 n=60
+exception j=2 n=60
+exception j=3 n=60
+exception j=2 n=64
+record j=2 n=65 F=8 p=17 offset=9 witness_index=3
+exception j=2 n=66
+record j=1 n=67 F=8 p=23 offset=15 witness_index=5
+exception j=2 n=67
+exception j=1 n=68
+exception j=2 n=68
+exception j=0 n=69
+exception j=1 n=69
+exception j=2 n=69
+exception j=3 n=69
+exception j=0 n=70
+exception j=1 n=70
+exception j=2 n=70
+exception j=3 n=70
+exception j=2 n=76
+exception j=1 n=77
+exception j=2 n=77
+exception j=0 n=78
+exception j=1 n=78
+exception j=2 n=78
+exception j=3 n=78
+exception j=0 n=79
+exception j=1 n=79
+exception j=2 n=79
+exception j=3 n=79
+exception j=0 n=80
+exception j=1 n=80
+exception j=2 n=80
+exception j=3 n=80
+record j=2 n=89 F=9 p=23 offset=14 witness_index=5
+exception j=2 n=90
+exception j=2 n=108
+exception j=2 n=119
+exception j=3 n=119
+exception j=1 n=120
+exception j=2 n=120
+exception j=3 n=120
+record j=2 n=141 F=11 p=29 offset=18 witness_index=5
+record j=1 n=142 F=11 p=29 offset=18 witness_index=5
+exception j=2 n=143
+exception j=1 n=144
+exception j=2 n=144
+exception j=2 n=154
+exception j=2 n=172
+exception j=1 n=173
+exception j=2 n=173
+exception j=0 n=174
+exception j=1 n=174
+exception j=2 n=174
+exception j=3 n=174
+record j=0 n=175 F=13 p=59 offset=46 witness_index=11
+record j=1 n=175 F=13 p=59 offset=46 witness_index=11
+record j=3 n=175 F=13 p=59 offset=46 witness_index=11
+exception j=2 n=175
+exception j=1 n=176
+exception j=2 n=176
+exception j=2 n=188
+exception j=1 n=189
+exception j=2 n=189
+exception j=0 n=190
+exception j=1 n=190
+exception j=2 n=190
+exception j=3 n=190
+exception j=0 n=191
+exception j=1 n=191
+exception j=2 n=191
+exception j=3 n=191
+exception j=0 n=192
+exception j=1 n=192
+exception j=2 n=192
+exception j=3 n=192
+exception j=2 n=207
+exception j=1 n=208
+exception j=2 n=208
+record j=2 n=321 F=17 p=41 offset=24 witness_index=6
+exception j=2 n=389
+exception j=1 n=390
+exception j=2 n=390
+record j=2 n=412 F=20 p=83 offset=63 witness_index=15
+record j=1 n=413 F=20 p=83 offset=63 witness_index=15
+exception j=2 n=413
+record j=0 n=414 F=20 p=83 offset=63 witness_index=15
+record j=3 n=414 F=20 p=83 offset=63 witness_index=15
+exception j=1 n=414
+exception j=2 n=414
+exception j=2 n=504
+record j=2 n=960 F=30 p=107 offset=77 witness_index=18
+record j=2 n=1035 F=32 p=173 offset=141 witness_index=29
+record j=1 n=1036 F=32 p=173 offset=141 witness_index=29
+exception j=2 n=1036
+record j=0 n=1037 F=32 p=149 offset=117 witness_index=24
+record j=3 n=1037 F=32 p=149 offset=117 witness_index=24
+exception j=2 n=1079
+exception j=1 n=1080
+exception j=2 n=1080
+summary j=0 range=[1,1800000000) exceptions=26 largest_exception=192 unresolved=0 max_offset=117 checksum=50926156701070
+hist j=0 1:1798760755 2:1239008 3:139 4:39 5:11 6:5 7:9 11:2 15:1 24:4
+summary j=1 range=[1,1800000000) exceptions=50 largest_exception=1080 unresolved=0 max_offset=141 checksum=50926157487247
+hist j=1 1:1798675909 2:1323178 3:778 4:44 5:16 6:6 7:10 10:1 11:1 15:1 24:4 29:1
+summary j=2 range=[1,1800000000) exceptions=81 largest_exception=1080 unresolved=0 max_offset=141 checksum=50926158279836
+hist j=2 1:1798591068 2:1406719 3:2030 4:52 5:20 6:9 7:11 10:2 15:1 18:1 24:4 29:1
+summary j=3 range=[1,1800000000) exceptions=35 largest_exception=192 unresolved=0 max_offset=117 checksum=50926156799096
+hist j=3 1:1798751886 2:1246638 3:1367 4:39 5:13 6:5 7:9 11:2 15:1 24:4

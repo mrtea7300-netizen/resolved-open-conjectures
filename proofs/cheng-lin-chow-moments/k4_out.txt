@@ -1,0 +1,21 @@
+full k=4: H+G(G+N)/12
+  all                        2:sum!=0(1/30) 3:ok 4:ok 5:ok 6:ok 7:ok 8:ok 9:ok 10:ok 11:ok 12:ok
+  L2 any + R2 last           2:sum!=0(1/30) 3:ok 4:FAIL 5:FAIL 6:FAIL 7:FAIL 8:FAIL 9:FAIL 10:FAIL 11:FAIL 12:FAIL
+  L2,R2 any                  2:sum!=0(1/30) 3:ok 4:FAIL 5:ok 6:FAIL 7:FAIL 8:FAIL 9:FAIL 10:FAIL 11:FAIL 12:FAIL
+  L2,L3 any + R2,R3 last     2:sum!=0(1/30) 3:ok 4:ok 5:ok 6:ok 7:ok 8:ok 9:ok 10:ok 11:ok 12:ok
+  L2,L3,R2,R3 any            2:sum!=0(1/30) 3:ok 4:ok 5:ok 6:ok 7:ok 8:ok 9:ok 10:ok 11:ok 12:ok
+  L2..4,R2..4 any            2:sum!=0(1/30) 3:ok 4:ok 5:ok 6:ok 7:ok 8:ok 9:ok 10:ok 11:ok 12:ok
+reduced: H+G^2/12
+  all                        2:sum!=0(1/30) 3:ok 4:FAIL 5:FAIL 6:FAIL 7:FAIL 8:FAIL 9:FAIL 10:FAIL 11:FAIL 12:FAIL
+  L2 any + R2 last           2:sum!=0(1/30) 3:ok 4:FAIL 5:FAIL 6:FAIL 7:FAIL 8:FAIL 9:FAIL 10:FAIL 11:FAIL 12:FAIL
+  L2,R2 any                  2:sum!=0(1/30) 3:ok 4:FAIL 5:FAIL 6:FAIL 7:FAIL 8:FAIL 9:FAIL 10:FAIL 11:FAIL 12:FAIL
+  L2,L3 any + R2,R3 last     2:sum!=0(1/30) 3:ok 4:FAIL 5:FAIL 6:FAIL 7:FAIL 8:FAIL 9:FAIL 10:FAIL 11:FAIL 12:FAIL
+  L2,L3,R2,R3 any            2:sum!=0(1/30) 3:ok 4:FAIL 5:FAIL 6:FAIL 7:FAIL 8:FAIL 9:FAIL 10:FAIL 11:FAIL 12:FAIL
+  L2..4,R2..4 any            2:sum!=0(1/30) 3:ok 4:FAIL 5:FAIL 6:FAIL 7:FAIL 8:FAIL 9:FAIL 10:FAIL 11:FAIL 12:FAIL
+d=2 closed form ratio set {Fraction(20, 3), Fraction(60, 11)} True
+d=3 closed form ratio set {Fraction(24, 1)} True
+d=4 closed form ratio set {Fraction(120, 1)} True
+d=5 closed form ratio set {Fraction(720, 1)} True
+d=6 closed form ratio set {Fraction(5040, 1)} True
+d=7 closed form ratio set {Fraction(40320, 1)} True
+d=8 closed form ratio set {Fraction(362880, 1)} True

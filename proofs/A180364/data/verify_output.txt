@@ -1,0 +1,9 @@
+[PASS] All 21 published OEIS A180364 terms (n = 0..20) reproduced exactly.
+[PASS] Three-term recurrence verified directly against definition for n = 0..199.
+[PASS] WZ polynomial identity (2), rational certificate R(n,k), and all boundary cases verified.
+[PASS] Symbolic barrier identities P_lo(m+1), P_hi(m+1) and inequality (8) verified exactly.
+[PASS] Exact integer base cases for ratio monotonicity (n = 0, 1) verified.
+[PASS] Exact integer tail inequality 4^33 * a(14)^8 > 11^33 * alpha^112 verified (P, Q > 0).
+[PASS] Exact integer root-ratio monotonicity verified for n = 1..50 (proof requires 1..12).
+[PASS] Exact integer ratio strict decrease a(n+1)^2 > a(n)*a(n+2) verified for n = 0..199.
+ALL CHECKS PASSED.

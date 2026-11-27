@@ -1,0 +1,56 @@
+# Farkas certificate: the degree-class LP of proof.md is infeasible at n=47, m=170.
+# Integer multipliers: a, b (E1, E2), z (I4 doubled), and per degree d: c_d (E3_d), w_d (I5_d).
+# Verify with: python check_certificates.py
+n 47
+m 170
+dmin 0
+a 2441696400
+b -536582475
+z 31177575
+d 0 c 131274000 w 0
+d 1 c 113770800 w 0
+d 2 c 96267600 w 0
+d 3 c 78764400 w 0
+d 4 c 61261200 w 0
+d 5 c 82702620 w 0
+d 6 c 26254800 w 0
+d 7 c -61261200 w 8751600
+d 8 c -131274000 w 17503200
+d 9 c -37194300 w 4132700
+d 10 c -26851500 w 2685150
+d 11 c 0 w 0
+d 12 c 9845550 w 0
+d 13 c 27769500 w 0
+d 14 c 0 w 0
+d 15 c 64761840 w 0
+d 16 c 83687175 w 0
+d 17 c 107721900 w 0
+d 18 c 129086100 w 0
+d 19 c 0 w 0
+d 20 c 0 w 0
+d 21 c 0 w 0
+d 22 c 0 w 0
+d 23 c 0 w 0
+d 24 c 0 w 0
+d 25 c 310594284 w 0
+d 26 c 336768300 w 0
+d 27 c 0 w 0
+d 28 c 0 w 0
+d 29 c 0 w 0
+d 30 c 0 w 0
+d 31 c 0 w 0
+d 32 c 0 w 0
+d 33 c 0 w 0
+d 34 c 0 w 0
+d 35 c 0 w 0
+d 36 c 0 w 0
+d 37 c 0 w 0
+d 38 c 0 w 0
+d 39 c 0 w 0
+d 40 c 0 w 0
+d 41 c 0 w 0
+d 42 c 0 w 0
+d 43 c 0 w 0
+d 44 c 0 w 0
+d 45 c 0 w 0
+d 46 c 0 w 0

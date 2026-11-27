@@ -1,0 +1,4 @@
+all                                      5:ok(sum=0) 6:ok(sum=0) 7:ok(sum=0) 8:ok(sum=0) 9:FAIL(sum=0) 10:FAIL(sum=0) 11:FAIL(sum=0) 12:FAIL(sum=0) 13:FAIL(sum=0) 14:FAIL(sum=0) 15:FAIL(sum=0) 16:FAIL(sum=0)
+last block only                          5:ok(sum=0) 6:ok(sum=0) 7:ok(sum=0) 8:ok(sum=0) 9:FAIL(sum=0) 10:FAIL(sum=0) 11:FAIL(sum=0) 12:FAIL(sum=0) 13:FAIL(sum=0) 14:FAIL(sum=0) 15:FAIL(sum=0) 16:FAIL(sum=0)
+last block, piece 2,3 or rest 2,3,4      5:ok(sum=0) 6:ok(sum=0) 7:ok(sum=0) 8:ok(sum=0) 9:FAIL(sum=0) 10:FAIL(sum=0) 11:FAIL(sum=0) 12:FAIL(sum=0) 13:FAIL(sum=0) 14:FAIL(sum=0) 15:FAIL(sum=0) 16:FAIL(sum=0)
+last two blocks                          5:ok(sum=0) 6:ok(sum=0) 7:ok(sum=0) 8:ok(sum=0) 9:FAIL(sum=0) 10:FAIL(sum=0) 11:FAIL(sum=0) 12:FAIL(sum=0) 13:FAIL(sum=0) 14:FAIL(sum=0) 15:FAIL(sum=0) 16:FAIL(sum=0)

@@ -1,0 +1,9 @@
+all                                              4:ok 5:ok 6:ok 7:ok 8:ok 9:ok 10:ok 11:ok 12:ok 13:ok 14:ok
+split off 2 or 3 at either end of a block        4:ok 5:ok 6:ok 7:ok 8:ok 9:ok 10:ok 11:ok 12:ok 13:ok 14:ok
+split off 2 or 3 on the left                     4:ok 5:ok 6:ok 7:ok 8:ok 9:ok 10:ok 11:ok 12:ok 13:ok 14:ok
+split off 2 or 3 on the right                    4:ok 5:ok 6:ok 7:ok 8:ok 9:ok 10:ok 11:ok 12:ok 13:ok 14:ok
+split off 2 on either side                       4:ok 5:ok 6:ok 7:ok 8:ok 9:ok 10:ok 11:ok 12:ok 13:ok 14:ok
+only the first block >= 4                        4:ok 5:ok 6:ok 7:ok 8:FAIL 9:ok 10:FAIL 11:FAIL 12:FAIL 13:FAIL 14:FAIL
+only the last block >= 4                         4:ok 5:ok 6:ok 7:ok 8:ok 9:ok 10:FAIL 11:FAIL 12:FAIL 13:FAIL 14:FAIL
+first block>=4, split off 2 or 3 on the left     4:ok 5:ok 6:ok 7:ok 8:FAIL 9:ok 10:FAIL 11:FAIL 12:FAIL 13:FAIL 14:FAIL
+last block>=4, split off 2 or 3 on the right     4:ok 5:ok 6:ok 7:ok 8:FAIL 9:ok 10:FAIL 11:FAIL 12:FAIL 13:FAIL 14:FAIL

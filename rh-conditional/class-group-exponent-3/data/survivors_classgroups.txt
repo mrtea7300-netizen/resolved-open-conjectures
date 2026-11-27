@@ -1,0 +1,73 @@
+66 survivors, largest 253507
+D=      -4  h=   1  exponent=1  <-- exponent divides 3
+D=      -8  h=   1  exponent=1  <-- exponent divides 3
+D=      -3  h=   1  exponent=1  <-- exponent divides 3
+D=      -7  h=   1  exponent=1  <-- exponent divides 3
+D=     -11  h=   1  exponent=1  <-- exponent divides 3
+D=     -19  h=   1  exponent=1  <-- exponent divides 3
+D=     -23  h=   3  exponent=3  <-- exponent divides 3
+D=     -31  h=   3  exponent=3  <-- exponent divides 3
+D=     -43  h=   1  exponent=1  <-- exponent divides 3
+D=     -59  h=   3  exponent=3  <-- exponent divides 3
+D=     -67  h=   1  exponent=1  <-- exponent divides 3
+D=     -83  h=   3  exponent=3  <-- exponent divides 3
+D=    -107  h=   3  exponent=3  <-- exponent divides 3
+D=    -139  h=   3  exponent=3  <-- exponent divides 3
+D=    -163  h=   1  exponent=1  <-- exponent divides 3
+D=    -211  h=   3  exponent=3  <-- exponent divides 3
+D=    -283  h=   3  exponent=3  <-- exponent divides 3
+D=    -307  h=   3  exponent=3  <-- exponent divides 3
+D=    -331  h=   3  exponent=3  <-- exponent divides 3
+D=    -379  h=   3  exponent=3  <-- exponent divides 3
+D=    -499  h=   3  exponent=3  <-- exponent divides 3
+D=    -523  h=   5  exponent=5
+D=    -547  h=   3  exponent=3  <-- exponent divides 3
+D=    -643  h=   3  exponent=3  <-- exponent divides 3
+D=    -787  h=   5  exponent=5
+D=    -883  h=   3  exponent=3  <-- exponent divides 3
+D=    -907  h=   3  exponent=3  <-- exponent divides 3
+D=   -1123  h=   5  exponent=5
+D=   -1723  h=   5  exponent=5
+D=   -1747  h=   5  exponent=5
+D=   -2083  h=   7  exponent=7
+D=   -2347  h=   5  exponent=5
+D=   -2683  h=   5  exponent=5
+D=   -3067  h=   7  exponent=7
+D=   -3187  h=   7  exponent=7
+D=   -3907  h=   7  exponent=7
+D=   -4027  h=   9  exponent=3  <-- exponent divides 3
+D=   -4243  h=   9  exponent=9
+D=   -4363  h=   9  exponent=9
+D=   -4603  h=   7  exponent=7
+D=   -5107  h=   7  exponent=7
+D=   -5443  h=   9  exponent=9
+D=   -5923  h=   7  exponent=7
+D=   -6043  h=   9  exponent=9
+D=   -6427  h=   9  exponent=9
+D=   -6763  h=   9  exponent=9
+D=   -7723  h=   9  exponent=9
+D=   -8563  h=   9  exponent=9
+D=   -8803  h=   9  exponent=9
+D=   -9067  h=   9  exponent=9
+D=  -10627  h=   9  exponent=9
+D=  -10987  h=  11  exponent=11
+D=  -13267  h=  11  exponent=11
+D=  -14107  h=  11  exponent=11
+D=  -14347  h=  13  exponent=13
+D=  -14683  h=  11  exponent=11
+D=  -15667  h=  11  exponent=11
+D=  -16963  h=  13  exponent=13
+D=  -22003  h=  15  exponent=15
+D=  -26203  h=  15  exponent=15
+D=  -32323  h=  15  exponent=15
+D=  -34483  h=  15  exponent=15
+D=  -36523  h=  17  exponent=17
+D=  -37123  h=  17  exponent=17
+D=  -89083  h=  25  exponent=25
+D=  -90787  h=  23  exponent=23
+D= -222643  h=  33  exponent=33
+D= -253507  h=  39  exponent=39
+
+exponent 1: [-4, -8, -3, -7, -11, -19, -43, -67, -163]
+exponent 3: [-23, -31, -59, -83, -107, -139, -211, -283, -307, -331, -379, -499, -547, -643, -883, -907, -4027]
+exponent 3 class numbers: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 9]

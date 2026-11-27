@@ -1,0 +1,7 @@
+[PASS] General-n symbolic identities for Conjectures 1, 2, 3 verified exactly.
+[PASS] Conjecture 1 exact Z[A] determinant identity verified for n = 1..12.
+[PASS] Conjecture 2 exact Z[A] determinant identity verified for n = 1..12.
+[PASS] Degenerate parameter values A in {0, +-2, +-2i} verified for n = 1..10.
+[PASS] All 35 published OEIS A360278 terms reproduced exactly from det.
+[PASS] Exact integer determinants for A360278 (Conj 1, A=1) and Conj 3 verified for n = 1..40.
+ALL CHECKS PASSED.

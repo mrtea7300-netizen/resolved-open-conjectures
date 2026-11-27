@@ -1,0 +1,4 @@
+d=21  nodes=17711 covers=100610  LP max of a(F)/max|a| = -2.776e-17  rounded up-set: size 63, valid True, exact a(F) = 0  (9.7s)
+d=22  nodes=28657 covers=170711  LP max of a(F)/max|a| = 1.582e-15  rounded up-set: size 849, valid True, exact a(F) = 0  (27.4s)
+d=23  nodes=46368 covers=289032  LP max of a(F)/max|a| = -0.000e+00  rounded up-set: size 8, valid True, exact a(F) = 0  (81.9s)
+d=24  nodes=75025 covers=488400  LP max of a(F)/max|a| = -1.388e-16  rounded up-set: size 57, valid True, exact a(F) = 0  (252.3s)
