@@ -73,11 +73,14 @@ In particular, we found **3 NEW confirmed exceptions to $\text{lpf}\binom{n}{k} 
 
 Full list of all 55 exceptions to `max(n/k, 13)` (and all 14 exceptions to `max(n/k, k)`) is in [`data/exceptions_1094.tsv`](data/exceptions_1094.tsv).
 
-### 2. Confirmed MathWorld erratum
+### 2. Confirmed misprint (in [ELS93] itself, copied by MathWorld)
 
-Wolfram MathWorld (`ExceptionalBinomialCoefficient.html`) lists `(13277, 900)` as an exceptional binomial coefficient with $\text{lpf} = 17$. Exact `gmpy2.bincoef` confirms this is a typo for `(14277, 900)`:
+The list on p. 222 of [ELS93] prints `(13277 900)`, and Wolfram MathWorld (`ExceptionalBinomialCoefficient.html`) copies it as `(13277, 900)` as an exceptional binomial coefficient with $\text{lpf} = 17$. Exact `gmpy2.bincoef` confirms this is a typo for `(14277, 900)`:
 - $\text{lpf}\binom{13277}{900} = 3$,
 - $\text{lpf}\binom{14277}{900} = 17 > 14277/900 = 15.8633$.
+
+Independent re-run (@yotam1001, 2026-11-27): `python verify_findings.py data/exceptions_1094.tsv`
+prints `PASS: ALL 66 rows verified 100% independently!`.
 
 ### 3. Exhaustive verification bounds pushed
 
@@ -97,7 +100,7 @@ Wolfram MathWorld (`ExceptionalBinomialCoefficient.html`) lists `(13277, 900)` a
 - **Next steps:**
   1. **Push Regime 1 to $k \le 10^8$ ($n \le 10^{16}$)** — at 7.5s per $2\times 10^7$, this takes ~45 seconds (check 64-bit `diff * inv` overflow for $q > 2^{32}$, fine up to $k < 4\times 10^9$).
   2. **Extend Regime 2 (`n > k^2`, Selfridge 1977 & Guy B31/B33) beyond $n = 10^7$ using a base-$2 \times 3$ or base-$2 \times 3 \times 5$ meet-in-the-middle / CRT-Kummer generator** for fixed small $k$ ($k \le 5000$) up to $n \le 10^{12}$, targeting a possible counterexample to Guy's $n > 17.125k$ or Selfridge's $n \ge k^2 - 1$!
-  3. **Write a short note on the $P = 13 \to 17$ phase transition** and the 43 new exceptions (plus the `C(13277, 900)` MathWorld erratum); verify against the original `[ELS93]` PDF before any external communication.
+  3. **Write a short note on the $P = 13 \to 17$ phase transition** and the 43 new exceptions (plus the `C(13277, 900)` misprint in [ELS93], copied by MathWorld); verify against the original `[ELS93]` PDF before any external communication.
 - **How to resume:**
   ```powershell
   cd conjectures/erdos-1094
