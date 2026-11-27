@@ -3,7 +3,7 @@
 ## Theorem
 
 Every integer $n \ge 6$ can be written as $n = x + y + z$ with integers $x \ge y \ge z \ge 1$ such that
-$$\operatorname{lcm}(x, y, z) = m(m+1)(m+2)$$
+$$\mathrm{lcm}(x, y, z) = m(m+1)(m+2)$$
 for some positive integer $m$. Moreover, no integer $1 \le n \le 5$ has such a representation.
 
 This proves Conjecture (i) of OEIS [A392684](https://oeis.org/A392684) for $k = 3$ and establishes $N(3) = 6$ in Conjecture (ii).
@@ -12,22 +12,22 @@ This proves Conjecture (i) of OEIS [A392684](https://oeis.org/A392684) for $k = 
 
 ### 1. Impossibility for $1 \le n \le 5$
 
-If $x + y + z = n \le 5$ with $x \ge y \ge z \ge 1$, then $x, y, z \in \{1, 2, 3\}$ and at most one of them can exceed $2$, so $\operatorname{lcm}(x, y, z) \in \{1, 2, 3, 4\} < 6 = 1 \cdot 2 \cdot 3$. Since $m(m+1)(m+2) \ge 6$ for all $m \ge 1$, no representation exists for $1 \le n \le 5$.
+If $x + y + z = n \le 5$ with $x \ge y \ge z \ge 1$, then $x, y, z \in \{1, 2, 3\}$ and at most one of them can exceed $2$, so $\mathrm{lcm}(x, y, z) \in \{1, 2, 3, 4\} < 6 = 1 \cdot 2 \cdot 3$. Since $m(m+1)(m+2) \ge 6$ for all $m \ge 1$, no representation exists for $1 \le n \le 5$.
 
 ### 2. Master LCM Lemmas
 
 For any positive integer $m$ and positive integers $a, b, c$ satisfying
 $$a \mid (m+1)(m+2), \qquad b \mid m(m+2), \qquad c \mid m(m+1),$$
-we immediately have $\operatorname{lcm}(a m, b(m+1), c(m+2)) \mid m(m+1)(m+2)$. Equality holds in each of the following four cases:
+we immediately have $\mathrm{lcm}(a m, b(m+1), c(m+2)) \mid m(m+1)(m+2)$. Equality holds in each of the following four cases:
 
-1. **Case A ($m$ odd):** $m, m+1, m+2$ are pairwise coprime, so $m(m+1)(m+2) \mid \operatorname{lcm}(a m, b(m+1), c(m+2))$.
-2. **Case B1 ($m = 2k$ even, $2 \mid a$ and $2 \mid c$):** $4k \mid a m$ and $4(k+1) \mid c(m+2)$, so $\operatorname{lcm}(4k, 4(k+1)) = 4 \operatorname{lcm}(k, k+1) = 4k(k+1) = m(m+2)$ divides the lcm; since $\gcd(m(m+2), m+1) = 1$, $m(m+1)(m+2)$ divides the lcm.
+1. **Case A ($m$ odd):** $m, m+1, m+2$ are pairwise coprime, so $m(m+1)(m+2) \mid \mathrm{lcm}(a m, b(m+1), c(m+2))$.
+2. **Case B1 ($m = 2k$ even, $2 \mid a$ and $2 \mid c$):** $4k \mid a m$ and $4(k+1) \mid c(m+2)$, so $\mathrm{lcm}(4k, 4(k+1)) = 4 \mathrm{lcm}(k, k+1) = 4k(k+1) = m(m+2)$ divides the lcm; since $\gcd(m(m+2), m+1) = 1$, $m(m+1)(m+2)$ divides the lcm.
 3. **Case B2 ($m = 4k$, $2 \mid a$):** $8k \mid a m$ and $2k+1 \mid (m+2)$, with $\gcd(8k, 2k+1) = 1$, so $8k(2k+1) = 4k(4k+2) = m(m+2)$ divides the lcm; since $\gcd(m(m+2), m+1) = 1$, $m(m+1)(m+2)$ divides the lcm.
 4. **Case B3 ($m = 4k + 2$, $2 \mid c$):** $2k+1 \mid m$ and $8(k+1) \mid c(m+2)$, with $\gcd(2k+1, 8(k+1)) = 1$, so $8(k+1)(2k+1) = (4k+2)(4k+4) = m(m+2)$ divides the lcm; since $\gcd(m(m+2), m+1) = 1$, $m(m+1)(m+2)$ divides the lcm.
 
 ### 3. Explicit 24-Template Covering System Modulo 240
 
-Every integer $n \ge 6$ except $n = 14$ falls into at least one of the following 24 arithmetic progressions, which together cover **all 240 residue classes modulo 240**. In each row, setting $x = a m, y = b(m+1), z = c(m+2)$ (and sorting $x, y, z$ in non-increasing order) gives $x + y + z = n$ and $\operatorname{lcm}(x, y, z) = m(m+1)(m+2)$ by the indicated Master Lemma:
+Every integer $n \ge 6$ except $n = 14$ falls into at least one of the following 24 arithmetic progressions, which together cover **all 240 residue classes modulo 240**. In each row, setting $x = a m, y = b(m+1), z = c(m+2)$ (and sorting $x, y, z$ in non-increasing order) gives $x + y + z = n$ and $\mathrm{lcm}(x, y, z) = m(m+1)(m+2)$ by the indicated Master Lemma:
 
 | # | Congruence for $n$ | Min $n$ | $(a, b, c)$ | Congruence for $m$ | Case |
 |---|---|---|---|---|---|
@@ -59,7 +59,7 @@ Every integer $n \ge 6$ except $n = 14$ falls into at least one of the following
 ### 4. The Lone Finite Case ($n = 14$)
 
 The only integer $n \ge 6$ not covered by the 24 templates above (since Template 21 starts at $n = 74$ for $m = 6$) is $n = 14$, which is represented by
-$$14 = 6 + 6 + 2, \qquad \operatorname{lcm}(6, 6, 2) = 6 = 1 \cdot 2 \cdot 3.$$
+$$14 = 6 + 6 + 2, \qquad \mathrm{lcm}(6, 6, 2) = 6 = 1 \cdot 2 \cdot 3.$$
 
 Hence every integer $n \ge 6$ has a valid representation. $\blacksquare$
 

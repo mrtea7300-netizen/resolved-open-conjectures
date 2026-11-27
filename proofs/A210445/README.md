@@ -16,8 +16,8 @@ From OEIS `A210445.seq` (retrieved from `oeis/oeisdata`, updated May 30 2026):
 ## Result
 
 **Both parts of Zhi-Wei Sun's conjecture are proved and formally verified in Lean 4:**
-- `A210445.a210445_part1`: for every $n > 1$, $\exists k,\; 0 < k < n \;\land\; \operatorname{IsPractical}(k \cdot n)$.
-- `A210445.a210445_part2`: for every $n > 47$, $\exists k,\; 0 < k \;\land\; 2k < n \;\land\; \operatorname{IsPractical}(k \cdot n)$.
+- `A210445.a210445_part1`: for every $n > 1$, $\exists k,\; 0 < k < n \;\land\; \mathrm{IsPractical}(k \cdot n)$.
+- `A210445.a210445_part2`: for every $n > 47$, $\exists k,\; 0 < k \;\land\; 2k < n \;\land\; \mathrm{IsPractical}(k \cdot n)$.
 
 Here `IsPractical m` is defined directly from the textbook subset-sum definition: $m > 0$ and every $r \le m$ is a sum of distinct positive divisors of $m$.
 

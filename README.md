@@ -1,5 +1,7 @@
 # Resolved Open Conjectures in Number Theory & Combinatorics
 
+**Contributors:** [@yotam1001](https://github.com/yotam1001), [@BoazCohenJ](https://github.com/BoazCohenJ), [@idangnlv](https://github.com/idangnlv), [@ohaventura](https://github.com/ohaventura), [@mrtea7300-netizen](https://github.com/mrtea7300-netizen)
+
 A clean, self-contained archive of **39 resolved open problems** from the literature and the OEIS — each backed by a complete proof, a formal Lean 4 verification, or an independently verified counterexample and certificate.
 
 Every folder contains the verbatim problem statement with primary source citation, the proof or counterexample, and standalone code/certificates to reproduce the verification from scratch.
@@ -13,7 +15,7 @@ Every folder contains the verbatim problem statement with primary source citatio
 - **Greathouse's 255 Conjecture (OEIS A156695)** — Disproved with the smallest counterexample $n = 275{,}984{,}581{,}255{,}575$ (exhaustively verified below $2.858 \times 10^{14}$, with explicit divisor certificates) ([`counterexamples/greathouse-255/`](counterexamples/greathouse-255/)).
 - **Kellner / Alekseyev Bernoulli Polynomial Derivative Conjecture (OEIS A094960)** — Proved unconditionally that `A094960` is finite with largest term $60$, formalized in Lean 4 ([`proofs/A094960/`](proofs/A094960/)).
 - **Cheng–Lin (`arXiv:2603.21680v3`) Conjecture 3.30** — Proved for all $d \ge 1$ that the Chow polynomial second-moment inequality is a nonnegative linear combination of flag monotonicity inequalities ([`proofs/cheng-lin-chow-moments/`](proofs/cheng-lin-chow-moments/)).
-- **Turán Numbers $\operatorname{ex}(n, C_4)$ (OEIS A006855)** — New upper bounds for $45 \le n \le 56$ with exact LP certificates ([`proofs/turan-c4/`](proofs/turan-c4/)).
+- **Turán Numbers $\mathrm{ex}(n, C_4)$ (OEIS A006855)** — New upper bounds for $45 \le n \le 56$ with exact LP certificates ([`proofs/turan-c4/`](proofs/turan-c4/)).
 - **Kotzig's Perfect 1-Factorization Conjecture** — Explicit perfect 1-factorization constructed and verified for the open order $K_{1682}$ ([`proofs/kotzig-perfect-1f/`](proofs/kotzig-perfect-1f/)).
 - **Sun (`arXiv:2302.08315`) Conjectures 4.2–4.4 (OEIS A360278)** — All three recurrent-matrix determinant formulas proved for all $n \ge 1$ and formalized in zero-dependency Lean 4 ([`proofs/A360278/`](proofs/A360278/)).
 
@@ -52,11 +54,11 @@ Every folder contains the verbatim problem statement with primary source citatio
 |---|---|---|---|
 | **A094960** | Kellner / Alekseyev conjecture: $B'_k(x) \in \mathbb{Z}[x]$ only for $k \in \{1,2,4,6,10,12,28,30,36,60\}$ | **Lean 4** + proof + C check | [`proofs/A094960/`](proofs/A094960/) |
 | **Cheng–Lin Conj. 3.30** | `arXiv:2603.21680v3` Conj. 3.30: Chow polynomial second-moment inequality is a nonnegative combination of flag monotonicity inequalities for all $d \ge 1$ | Exact proof + certificates ($d \le 22$) | [`proofs/cheng-lin-chow-moments/`](proofs/cheng-lin-chow-moments/) |
-| **Turán $\operatorname{ex}(n, C_4)$ (`A006855`)** | New upper bounds for $\operatorname{ex}(n, C_4)$ across $45 \le n \le 56$ | Exact rational LP certificates | [`proofs/turan-c4/`](proofs/turan-c4/) |
+| **Turán $\mathrm{ex}(n, C_4)$ (`A006855`)** | New upper bounds for $\mathrm{ex}(n, C_4)$ across $45 \le n \le 56$ | Exact rational LP certificates | [`proofs/turan-c4/`](proofs/turan-c4/) |
 | **Kotzig P1F ($K_{1682}$)** | Existence of a perfect 1-factorization of the open order $K_{1682}$ ($q = 41^2$) | Explicit certificate + verifiers | [`proofs/kotzig-perfect-1f/`](proofs/kotzig-perfect-1f/) |
 | **A360278 (Conj. 1–3)** | `arXiv:2302.08315` Conj. 4.2–4.4: exact evaluations of $\det[v(j+k)+\delta_{j,k}]$ for Lucas, Fibonacci, and general $A$ | **Lean 4** (zero-dep) + proof | [`proofs/A360278/`](proofs/A360278/) |
 | **A210445** | Least $k$ with $kn$ practical satisfies $a(n) < n$ ($n > 1$) and $a(n) < n/2$ ($n > 47$) | **Lean 4** (zero-dep) + proof | [`proofs/A210445/`](proofs/A210445/) |
-| **A392684 ($k = 3$)** | Every $n \ge 6$ is $x+y+z$ with $\operatorname{lcm}(x,y,z) = m(m+1)(m+2)$, and $N(3) = 6$ | **Lean 4** (zero-dep) + proof | [`proofs/A392684/`](proofs/A392684/) |
+| **A392684 ($k = 3$)** | Every $n \ge 6$ is $x+y+z$ with $\mathrm{lcm}(x,y,z) = m(m+1)(m+2)$, and $N(3) = 6$ | **Lean 4** (zero-dep) + proof | [`proofs/A392684/`](proofs/A392684/) |
 | **A362743 (Conj. 1, part 1)** | Integers not representable as sums of distinct $4^a + 5^b$ are exactly $\{1,3,4,10,12,18\}$ | **Lean 4** (zero-dep) + Python | [`proofs/A362743/`](proofs/A362743/) |
 | **A362861 (Conj. 1(i) & 1(ii) pt 1)** | Exact characterization of even integers as sums of distinct $5^a+5^b$, $3^a+3^b$, and $3^a+7^b$ | **Lean 4** (zero-dep) + Python | [`proofs/A362861/`](proofs/A362861/) |
 | **A238165 (part ii)** | Sun `arXiv:1402.6641` Conj. 2.7(i): $\pi(kn)^{1/k}$ is strictly decreasing in $k \ge 1$ for all $n \ge 5$ | Elementary proof + exact checks | [`proofs/A238165/`](proofs/A238165/) |

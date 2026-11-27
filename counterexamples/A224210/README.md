@@ -36,7 +36,7 @@ The inner loop upper limit was written as `Prime[4n-3]` instead of `4n-3`, so at
 
 ### Heuristic note
 
-By Chebotarev's density theorem (assuming $\operatorname{Gal}(f_n/\mathbb{Q}) \cong S_n$), the density of primes $p$ for which $f_n(x)$ is irreducible mod $p$ is $1/n$, so the probability that all of the first $4n-3$ primes fail is approximately $(1 - 1/n)^{4n-3} \approx e^{-4} \approx 1.83\%$ per $n$. Thus infinitely many counterexamples are expected.
+By Chebotarev's density theorem (assuming $\mathrm{Gal}(f_n/\mathbb{Q}) \cong S_n$), the density of primes $p$ for which $f_n(x)$ is irreducible mod $p$ is $1/n$, so the probability that all of the first $4n-3$ primes fail is approximately $(1 - 1/n)^{4n-3} \approx e^{-4} \approx 1.83\%$ per $n$. Thus infinitely many counterexamples are expected.
 
 ## Verification
 
